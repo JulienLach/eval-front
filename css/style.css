@@ -10,6 +10,21 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+    margin-top: 3em;
+}
+
+h2,
+h3,
+.price {
+    color: rgb(61, 128, 128);
+}
+
+p {
+    color: rgb(116, 116, 116);
+
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -26,6 +41,7 @@ body {
     justify-content: start;
     align-items: center;
     gap: 2em;
+    margin-left: 2em;
 }
 
 .main-menu ul {
@@ -72,12 +88,27 @@ a {
     justify-content: space-between;
 }
 
+.separateur-yellow {
+    height: 0.2em;
+    background-color: rgba(221, 145, 4, 0.945);
+    position: relative;
+    top: 17px;
+}
+
 .header-selectors {
     background-color: rgba(0, 0, 0, 0.6);
     height: 7em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.selectors {
+    margin: auto 4em;
+}
+
+.header-button {
+    margin: auto 4em;
 }
 
 /* PARAGRAPHES */
@@ -94,9 +125,56 @@ a {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    color: rgb(116, 116, 116);
 }
 
 strong {
     color: #000;
+}
+
+/* CARDS */
+
+.cards {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 1em;
+}
+
+.card p {
+    color: rgb(116, 116, 116);
+}
+
+.card .price {
+    font-weight: bold;
+}
+
+.inedit {
+    color: rgba(221, 145, 4, 0.945);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card img {
+    width: 25vw;
+}
+
+.separateur {
+    height: 0.2em;
+    background-color: rgba(221, 145, 4, 0.548);
+    width: 30%;
+}
+
+/* CONTENT */
+
+.content {
+    width: 80%;
+    margin: auto;
+}
+
+.content h2 {
+    margin-top: 2em;
+}
+
+.content p {
+    margin-top: 1em;
 }
