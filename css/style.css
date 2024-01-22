@@ -1,1 +1,102 @@
+/* SELECTEURS GLOBAUX */
 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-image: url("../img/Polynesie-bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.img-logo {
+    height: 12vh;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2em;
+}
+
+.main-menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+/* HEADER CONTENT */
+
+.header-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 6em;
+}
+
+.tampon {
+    text-align: center;
+    margin-top: 8em;
+
+}
+
+.tampon img {
+    height: 6em;
+}
+
+.header-content {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-selectors {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* PARAGRAPHES */
+
+.paragraphes {
+    background-image: url("../img/background-spiral.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+
+.paragraphes-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: rgb(116, 116, 116);
+}
+
+strong {
+    color: #000;
+}
