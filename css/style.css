@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    margin-top: 3em;
+    margin-top: 5em;
 }
 
 h2,
@@ -105,10 +105,29 @@ a {
 
 .selectors {
     margin: auto 4em;
+    display: flex;
+    gap: 1em;
 }
 
-.header-button {
+select {
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 0.6em 3em;
+    color: #FFF;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header-button button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: #FFF;
+    border: none;
+    border-radius: 8px;
     margin: auto 4em;
+    padding: 0.6em 3em;
+    background-color: rgba(221, 145, 4, 0.945);
 }
 
 /* PARAGRAPHES */
@@ -125,10 +144,11 @@ a {
     display: flex;
     flex-direction: column;
     gap: 1em;
+    line-height: 1.6em;
 }
 
 strong {
-    color: #000;
+    color: #333333;
 }
 
 /* CARDS */
@@ -138,6 +158,12 @@ strong {
     width: 80%;
     margin: auto;
     gap: 1em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
 }
 
 .card p {
@@ -169,6 +195,7 @@ strong {
 .content {
     width: 80%;
     margin: auto;
+    margin-top: 8em;
 }
 
 .content h2 {
@@ -177,4 +204,13 @@ strong {
 
 .content p {
     margin-top: 1em;
+}
+
+
+/* FOOTER */
+
+.footer {
+    margin: 2em auto;
+    text-align: center;
+    font-size: 0.7em;
 }
